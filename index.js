@@ -23,7 +23,6 @@ function addTextObject(id) {
 
 // Отрисовка холста при изменении параметров.
 function render() {
-    console.log(texts)
     const image = new Image();
     image.src = changedImage.src;
     image.onload = function () {
