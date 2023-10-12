@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+@font-face {
+    font-family: 'Impact';
+    src: url('fonts/Impact.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Fixedsys';
+    src: url('fonts/Fixedsys.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'UniSans';
+    src: url('fonts/UniSans.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0 40px;
+}
+
+.title {
+    font-family: 'Lobster', Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    color: black;
+    margin-bottom: 8px;
+}
+
+.canvas {
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 800px;
+    max-height: 600px;
+    border: 1px solid black;
+}
+
+.meme__container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.buttons__container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.add-text__button {
+    min-width: 111px;
+}
+
+.text__settings__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.settings__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.texts__container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text__item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.text-size {
+    width: 50px;
+}
